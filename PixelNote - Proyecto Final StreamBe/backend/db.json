@@ -3,7 +3,7 @@
     {
       "id": 1699999999999,
       "title": "Bienvenida a PixelNote",
-      "content": "Esta es una nota de ejemplo. Podés editarla o eliminarla.",
+      "content": "Nota.",
       "image": null,
       "createdAt": "2025-01-01T00:00:00.000Z"
     }
@@ -11,9 +11,9 @@
   "reminders": [
     {
       "id": 1699999999999,
-      "title": "Recordatorio de ejemplo",
+      "title": "Recordatorio ",
       "date": "",
-      "content": "Este es un recordatorio de prueba.",
+      "content": "Recordatorio.",
       "createdAt": "2025-01-01T00:00:00.000Z"
     }
   ]
