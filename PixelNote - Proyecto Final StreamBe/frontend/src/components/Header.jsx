@@ -1,12 +1,26 @@
-function Header({ setView }) {
+function Header({ setView, currentView }) {
   return (
-    <header className="header">
+    <div className="header">
       <h1>PixelNote</h1>
       <nav>
-        <button onClick={() => setView('notes')}>Notas y Recordatorios</button>
-        <button onClick={() => setView('draw')}>Dibujar</button>
+        <button 
+          onClick={() => setView('notes')}
+          style={{ 
+            backgroundColor: currentView === 'notes' ? '#6a5cc0' : '#b2a6d9' 
+          }}
+        >
+          Notas
+        </button>
+        <button 
+          onClick={() => setView('draw')}
+          style={{ 
+            backgroundColor: currentView === 'draw' ? '#6a5cc0' : '#b2a6d9' 
+          }}
+        >
+          Dibujar
+        </button>
       </nav>
-    </header>
+    </div>
   );
 }
 

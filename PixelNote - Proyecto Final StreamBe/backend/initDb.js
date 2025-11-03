@@ -9,17 +9,17 @@ const initial = {
     {
       id: Date.now(),
       title: "Bienvenida a PixelNote",
-      content: "Esta es una nota de ejemplo. Podés editarla o eliminarla.",
-      image: null, // dataURL si tenés dibujo
+      content: "Nota",
+      image: null, 
       createdAt: new Date().toISOString()
     }
   ],
   reminders: [
     {
       id: Date.now() + 1,
-      title: "Recordatorio de ejemplo",
+      title: "Recordatorio",
       date: "",
-      content: "Este es un recordatorio de prueba.",
+      content: "recordatorio",
       createdAt: new Date().toISOString()
     }
   ]
